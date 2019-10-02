@@ -1,0 +1,201 @@
+body {
+	font-family: sans-serif;
+	margin-top: 100px;
+    width: 1024px;
+    margin: 0 auto;
+    background: tan;
+}
+
+p {
+    margin-block-start: 0;
+    margin-block-end: 0; 
+}
+
+
+a {
+    text-decoration: none;
+}
+/* unvisited link */
+a:link {
+  color: #ebdac3;
+     background-color: #2a0047;
+    padding: 14px 16px;
+}
+
+/* visited link */
+a:visited {
+  color: tan;
+     background-color: #2a0047;
+    text-decoration: bold;
+}
+
+/* mouse over link */
+a:hover {
+  color: #8adff2;
+     background-color: #6c597d;
+}
+
+/* selected link */
+a:active {
+  color:#8adff2;
+    background-color: #2a0047;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    background: #ebdac3;
+    position: relative;
+}
+
+.bar{
+    background: tan;
+    display: block;
+    width: 1000px;
+    height: 10px;
+}
+
+.columns_2 {
+    column-count: 2;
+    column-gap: 30px;
+}
+
+.navigation_bar {
+    display: block;
+    background: #2a0047;
+    width: 1000px;
+    height: 45px;
+    position: fixed;
+    text-align: right;
+    z-index: 999;
+    font-style: oblique;
+    font-size: 21px;   
+}
+
+.navigation_bar a {
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}
+
+.pic_desc {
+    color: dimgray;
+    text-align: center;
+}
+
+.image_to_right {
+    right: 0;
+    z-index: 80;
+    position: absolute;
+ 
+
+}
+
+.titles {
+    font-size: 50px;
+    color: #2a0047;
+    margin-left: 60px;
+    
+}
+
+.description {
+    width: 470px;
+    height: 540px;
+    margin-left: 40px;
+    margin-right: 40px;   
+}
+
+
+.taxonomy_list {
+    width: 200px;
+    float: left;
+}
+
+.waving {
+    width: 700px;
+    float: right;
+    margin-right: 30px;
+}
+
+.waving_desc {
+   float: right;
+   margin-right: 70px 
+}
+
+.biology{
+    width: 570px;
+    height: 380px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+
+}
+
+.ecology{
+    width: 900px;
+    height: 130px;
+     margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+.behavior{
+    width: 920px;
+    height: 200px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    float: right;
+}
+
+
+figure{
+   width:1000px; 
+    height: 50px
+   overflow:hidden; 
+   margin: 0;
+    margin-top: -70px
+}
+figure img{
+   display:block; 
+   width: 1000px; 
+    height: 380px;
+}
+
+
+
+.rel_to_humans{
+    width: 330px;
+    height: 600px;
+    margin: 40px;
+    float: left;
+    
+}
+
+.rel_2_humans_img {
+    float: right;
+
+    
+    
+}
+
+.clear {
+    clear: both;
+    
+}
+
+.myname {
+    display: block;
+    background-color: #2a0047;
+    width: 1000px;
+    height: 70px;
+    
+   
+}
+
+.mynamewrds {
+    float: left;
+    color: tan;
+}
+    
+
